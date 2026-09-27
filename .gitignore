@@ -1,0 +1,8 @@
+node_modules/
+ui-demo/dist/
+database/*.db
+database/*.db-shm
+database/*.db-wal
+ui-demo/.env
+.env
+npm-debug.log*

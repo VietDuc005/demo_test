@@ -1,0 +1,70 @@
+[
+  {
+    "id": "PROMO-A-AUTUMN-2026",
+    "business_id": "SHOWROOM_A",
+    "campaign_name": "Thu Vàng Rực Rỡ - Lái Thử Rước Xe Ngay",
+    "status": "ACTIVE",
+    "approved_by": "Giám Đốc Bán Hàng Showroom A (Trần Đình Hải)",
+    "approval_date": "2026-09-01T09:00:00+07:00",
+    "effective_from": "2026-09-01T00:00:00+07:00",
+    "effective_to": "2026-09-30T23:59:59+07:00",
+    "applicable_vehicles": ["VEH-CRV-2026", "VEH-CITY-2026"],
+    "rule_conditions": {
+      "customer_tier": ["NEW", "RETURNING"],
+      "geographic_scope": ["Hà Nội", "Hải Phòng", "Quảng Ninh"],
+      "booking_requirement": "Hoàn tất đặt lịch lái thử trực tuyến qua AI Agent"
+    },
+    "benefits": [
+      {
+        "type": "CASH_DISCOUNT",
+        "value": 30000000,
+        "description": "Giảm ngay 30 triệu đồng tiền mặt vào hợp đồng mua xe CR-V L AWD (hoặc 15 triệu đồng cho City RS)"
+      },
+      {
+        "type": "ACCESSORY_GIFT",
+        "value": 15000000,
+        "description": "Tặng gói phụ kiện cao cấp chính hãng (Gồm dán phim cách nhiệt 3M Crystalline, thảm sàn 6D và Camera hành trình)"
+      },
+      {
+        "type": "MAINTENANCE_VOUCHER",
+        "value": 5000000,
+        "description": "Voucher miễn phí tiền công bảo dưỡng định kỳ 1.000km và 5.000km đầu tiên"
+      }
+    ],
+    "notes": "Chỉ áp dụng cho khách hàng đặt cọc trước ngày 30/09/2026. Không cộng dồn với ưu đãi khách hàng lô doanh nghiệp."
+  },
+  {
+    "id": "PROMO-B-HYBRID-ECO-2026",
+    "business_id": "SHOWROOM_B",
+    "campaign_name": "Tiên Phong Công Nghệ Xanh Hybrid 2026",
+    "status": "ACTIVE",
+    "approved_by": "Giám Đốc Đại Lý Showroom B (Ngô Hoàng Nam)",
+    "approval_date": "2026-09-05T14:30:00+07:00",
+    "effective_from": "2026-09-05T00:00:00+07:00",
+    "effective_to": "2026-10-15T23:59:59+07:00",
+    "applicable_vehicles": ["VEH-CAMRY-2026", "VEH-COROLLA-CROSS-2026"],
+    "rule_conditions": {
+      "customer_tier": ["NEW", "LOYALTY"],
+      "geographic_scope": ["TP. Hồ Chí Minh", "Bình Dương", "Đồng Nai", "Đà Nẵng"],
+      "payment_method": ["CASH", "BANK_LOAN"]
+    },
+    "benefits": [
+      {
+        "type": "REGISTRATION_FEE_SUBSIDY",
+        "value": 50000000,
+        "description": "Hỗ trợ 50% lệ phí trước bạ cho xe Corolla Cross Hybrid (tương đương 45-50 triệu đồng)"
+      },
+      {
+        "type": "BATTERY_WARRANTY_EXTENSION",
+        "value": 25000000,
+        "description": "Gia hạn bảo hành Ắc quy Hybrid lên 7 năm hoặc 150.000 km (tăng 2 năm so với tiêu chuẩn)"
+      },
+      {
+        "type": "INSURANCE_GIFT",
+        "value": 18000000,
+        "description": "Tặng 01 năm bảo hiểm vật chất thân vỏ chính hãng Toyota Gold"
+      }
+    ],
+    "notes": "Khách hàng doanh nghiệp mua từ 2 xe trở lên được chiết khấu thêm 1% trên giá trị niêm yết."
+  }
+]

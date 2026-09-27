@@ -1,0 +1,134 @@
+[
+  {
+    "id": "VEH-CRV-2026",
+    "business_id": "SHOWROOM_A",
+    "name": "Honda CR-V L (All-Wheel Drive)",
+    "category": "C-SUV",
+    "trim": "L AWD",
+    "model_year": 2026,
+    "listed_price": 1110000000,
+    "deposit_required": 20000000,
+    "inventory_count": 5,
+    "colors_available": ["Trắng Ngọc", "Đen Ánh", "Ghi Bạc", "Đỏ Cá Tính"],
+    "specifications": {
+      "engine": "1.5L VTEC TURBO",
+      "power_hp": 188,
+      "torque_nm": 240,
+      "transmission": "CVT",
+      "fuel_consumption_combined_l_100km": 7.5,
+      "seating_capacity": 7,
+      "safety_system": "Honda SENSING thế hệ 3"
+    },
+    "rolling_price_estimate": {
+      "hanoi": 1265000000,
+      "hcm": 1243000000,
+      "provinces": 1224000000
+    },
+    "key_features": [
+      "Gói công nghệ an toàn chủ động Honda SENSING",
+      "Hệ dẫn động 4 bánh toàn thời gian Real Time AWD",
+      "Cửa sổ trời toàn cảnh Panorama, mở cốp rảnh tay",
+      "Kết nối Honda CONNECT điều khiển từ xa qua smartphone"
+    ],
+    "target_customer_persona": "Gia đình 4-6 người, doanh nhân trẻ, ưu tiên an toàn và không gian rộng rãi"
+  },
+  {
+    "id": "VEH-CITY-2026",
+    "business_id": "SHOWROOM_A",
+    "name": "Honda City RS",
+    "category": "B-Sedan",
+    "trim": "RS",
+    "model_year": 2026,
+    "listed_price": 609000000,
+    "deposit_required": 10000000,
+    "inventory_count": 8,
+    "colors_available": ["Đỏ Đậm", "Trắng Ngọc", "Xám Phong Cách", "Đen Ánh"],
+    "specifications": {
+      "engine": "1.5L DOHC i-VTEC",
+      "power_hp": 119,
+      "torque_nm": 145,
+      "transmission": "CVT",
+      "fuel_consumption_combined_l_100km": 5.6,
+      "seating_capacity": 5,
+      "safety_system": "Honda SENSING & 6 túi khí"
+    },
+    "rolling_price_estimate": {
+      "hanoi": 704000000,
+      "hcm": 692000000,
+      "provinces": 673000000
+    },
+    "key_features": [
+      "Ngoại hình thể thao RS độc quyền",
+      "Phanh đĩa 4 bánh + gói an toàn Honda SENSING",
+      "Đề nổ từ xa bằng chìa khóa thông minh",
+      "Ghế da lộn thể thao viền chỉ đỏ"
+    ],
+    "target_customer_persona": "Khách hàng trẻ lần đầu mua xe, gia đình trẻ, nhân viên văn phòng đi lại đô thị"
+  },
+  {
+    "id": "VEH-CAMRY-2026",
+    "business_id": "SHOWROOM_B",
+    "name": "Toyota Camry 2.5 HEV (Hybrid)",
+    "category": "D-Sedan",
+    "trim": "2.5 HEV",
+    "model_year": 2026,
+    "listed_price": 1460000000,
+    "deposit_required": 30000000,
+    "inventory_count": 3,
+    "colors_available": ["Đen Huyền Bí", "Trắng Ngọc Trai", "Đỏ Ánh Kim"],
+    "specifications": {
+      "engine": "2.5L Xăng + Mô tơ điện Hybrid Thế hệ 5",
+      "power_hp": 211,
+      "torque_nm": 221,
+      "transmission": "E-CVT",
+      "fuel_consumption_combined_l_100km": 4.4,
+      "seating_capacity": 5,
+      "safety_system": "Toyota Safety Sense 3.0"
+    },
+    "rolling_price_estimate": {
+      "hanoi": 1657000000,
+      "hcm": 1628000000,
+      "provinces": 1609000000
+    },
+    "key_features": [
+      "Công nghệ tự sạc Hybrid siêu tiết kiệm 4.4L/100km",
+      "Bảng điều khiển cảm ứng tựa tay hàng ghế sau chuẩn VIP",
+      "Màn hình hiển thị trên kính lái HUD 10 inch",
+      "9 loa JBL cao cấp có loa siêu trầm"
+    ],
+    "target_customer_persona": "Giám đốc, quản lý cấp cao, doanh nhân yêu chuộng sự êm ái, lịch lãm và công nghệ xanh"
+  },
+  {
+    "id": "VEH-COROLLA-CROSS-2026",
+    "business_id": "SHOWROOM_B",
+    "name": "Toyota Corolla Cross 1.8 HEV",
+    "category": "B+ SUV",
+    "trim": "1.8 HEV",
+    "model_year": 2026,
+    "listed_price": 905000000,
+    "deposit_required": 20000000,
+    "inventory_count": 6,
+    "colors_available": ["Xanh Ánh Kim", "Trắng Ngọc Trai", "Xám Bạc", "Đen"],
+    "specifications": {
+      "engine": "1.8L Xăng + Điện Hybrid",
+      "power_hp": 138,
+      "torque_nm": 172,
+      "transmission": "E-CVT",
+      "fuel_consumption_combined_l_100km": 3.67,
+      "seating_capacity": 5,
+      "safety_system": "Toyota Safety Sense (TSS) & Camera 360"
+    },
+    "rolling_price_estimate": {
+      "hanoi": 1035000000,
+      "hcm": 1017000000,
+      "provinces": 998000000
+    },
+    "key_features": [
+      "Tiết kiệm nhiên liệu kỷ lục đô thị chỉ 3.67L/100km",
+      "Gói TSS: Cảnh báo tiền va chạm, Cảnh báo lệch làn, Ga tự động thích ứng",
+      "Phanh tay điện tử & Auto Hold",
+      "Cửa hậu đóng mở điện tích hợp đá cốp thông minh"
+    ],
+    "target_customer_persona": "Gia đình hạt nhân 3-4 người sống tại đô thị lớn muốn xe gầm cao tiết kiệm xăng"
+  }
+]

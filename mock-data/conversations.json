@@ -1,0 +1,123 @@
+[
+  {
+    "conversation_id": "CONV-A-101",
+    "business_id": "SHOWROOM_A",
+    "customer_id": "CUST-001",
+    "customer_name": "Nguyễn Văn Tuấn",
+    "state": "RESOLVED",
+    "lead_intent_score": 88,
+    "ai_summary": "Khách hàng Nguyễn Văn Tuấn quan tâm dòng Honda CR-V L AWD 2026 màu đen/trắng. Đã tư vấn chi tiết thông số động cơ 1.5L Turbo, gói an toàn Honda SENSING và giá lăn bánh tại Hà Nội (khoảng 1.265 tỷ). Đã giải đáp chương trình khuyến mãi tháng 9 giảm 30 triệu + gói phụ kiện 15 triệu. Khách đã xác nhận đặt lịch lái thử vào lúc 09:00 Thứ Bảy ngày 26/09/2026 tại Showroom Giải Phóng.",
+    "suggested_actions": [
+      "Gửi tin nhắn Zalo/SMS nhắc lịch lái thử trước 24h",
+      "Chuẩn bị sẵn xe CR-V L AWD màu Trắng Ngọc và kiểm tra thẻ bằng lái B2",
+      "Chuẩn bị bảng tính chi tiết lãi suất vay ngân hàng 80% (Vietcombank/VIB)"
+    ],
+    "messages": [
+      {
+        "id": "MSG-001",
+        "sender_type": "CUSTOMER",
+        "sender_name": "Nguyễn Văn Tuấn",
+        "content": "Chào em, anh đang tìm hiểu dòng CR-V 2026 bản dẫn động 4 bánh, bản này giá lăn bánh ở Hà Nội khoảng bao nhiêu và đang có ưu đãi gì không em?",
+        "timestamp": "2026-09-23T08:15:10+07:00"
+      },
+      {
+        "id": "MSG-002",
+        "sender_type": "AI_AGENT",
+        "sender_name": "AutoAdvisor AI (Showroom A)",
+        "content": "Dạ em chào anh Tuấn! Rất vui được hỗ trợ anh tìm hiểu phiên bản cao cấp **Honda CR-V L AWD (All-Wheel Drive) 2026** ạ.\n\nThông tin chi tiết về giá và chính sách gửi đến anh như sau:\n\n1. **Giá niêm yết chính hãng:** 1.110.000.000 VNĐ.\n2. **Tạm tính giá lăn bánh tại Hà Nội:** Khoảng **1.265.000.000 VNĐ** (đã bao gồm lệ phí trước bạ 12% ~ 133.2 triệu, tiền biển số 20 triệu, phí đăng kiểm, bảo hiểm TNDS và phí bảo trì đường bộ).\n3. **Chương trình khuyến mãi tháng 9/2026:**\n   - Giảm trực tiếp **30.000.000 VNĐ** tiền mặt vào hợp đồng mua xe.\n   - Tặng gói phụ kiện cao cấp chính hãng trị giá **15.000.000 VNĐ** (Phim cách nhiệt 3M Crystalline, thảm lót sàn 6D, Camera hành trình).\n   - Tặng Voucher miễn phí tiền công bảo dưỡng mốc 1.000km và 5.000km đầu tiên.\n\nBản CR-V L AWD nổi bật với hệ thống an toàn chủ động **Honda SENSING thế hệ 3** và dẫn động 4 bánh toàn thời gian giúp xe bám đường cực kỳ đầm chắc trong mọi điều kiện thời tiết.",
+        "citations": [
+          {
+            "doc_title": "Bang_Gia_Chinh_Thuc_CRV_2026.pdf",
+            "section": "Mục 2.1 - Bảng giá & Dự toán lăn bánh khu vực Hà Nội",
+            "chunk_id": "CHK-CRV-PRICE-01"
+          },
+          {
+            "doc_title": "Chinh_Sach_Khuyen_Mai_Thang_09_2026.pdf",
+            "section": "Khoản B - Ưu đãi dòng xe C-SUV",
+            "chunk_id": "CHK-PROMO-SEP-02"
+          }
+        ],
+        "timestamp": "2026-09-23T08:15:22+07:00"
+      },
+      {
+        "id": "MSG-003",
+        "sender_type": "CUSTOMER",
+        "sender_name": "Nguyễn Văn Tuấn",
+        "content": "Xe có sẵn giao ngay màu đen hoặc trắng không em? Anh muốn đăng ký lái thử vào sáng thứ Bảy này được không?",
+        "timestamp": "2026-09-23T08:18:05+07:00"
+      },
+      {
+        "id": "MSG-004",
+        "sender_type": "AI_AGENT",
+        "sender_name": "AutoAdvisor AI (Showroom A)",
+        "content": "Dạ hiện tại kho xe Showroom Giải Phóng đang có sẵn **03 xe màu Trắng Ngọc** và **02 xe màu Đen Ánh** có thể giao ngay trong tuần cho anh ạ!\n\nVề lịch lái thử, em xin phép hỗ trợ anh đặt lịch vào sáng Thứ Bảy tuần này:\n- **Thời gian đề xuất:** 09:00 - 10:00, Thứ Bảy ngày 26/09/2026.\n- **Địa điểm:** Showroom Honda Giải Phóng, Hà Nội.\n- **Dòng xe lái thử:** Honda CR-V L AWD 2026.\n\nAnh xác nhận giúp em thông tin trên để em giữ suất lái thử và chuẩn bị xe trải nghiệm tốt nhất cho anh nhé ạ?",
+        "timestamp": "2026-09-23T08:18:18+07:00"
+      },
+      {
+        "id": "MSG-005",
+        "sender_type": "CUSTOMER",
+        "sender_name": "Nguyễn Văn Tuấn",
+        "content": "Ok em, anh xác nhận đặt lịch 9h sáng thứ Bảy nhé. SĐT anh là 0912345678.",
+        "timestamp": "2026-09-23T08:19:30+07:00"
+      },
+      {
+        "id": "MSG-006",
+        "sender_type": "AI_AGENT",
+        "sender_name": "AutoAdvisor AI (Showroom A)",
+        "content": "Dạ em đã ghi nhận lịch hẹn thành công vào hệ thống!\n\n**XÁC NHẬN ĐẶT LỊCH LÁI THỬ THÀNH CÔNG:**\n- **Mã lịch hẹn:** `BK-202609-001`\n- **Khách hàng:** Nguyễn Văn Tuấn (0912345678)\n- **Thời gian:** 09:00 – 10:00, Thứ Bảy, 26/09/2026\n- **Dòng xe:** Honda CR-V L AWD 2026\n- **Địa điểm:** Showroom Honda Giải Phóng, Hà Nội\n- **Chuyên viên đồng hành:** Bạn Trần Thị Lan (0988.xxx.xxx)\n\nKhi đi anh chỉ cần mang theo Căn cước công dân và Giấy phép lái xe ô tô hạng B2 còn hạn là được ạ. Cảm ơn anh Tuấn và hẹn gặp anh tại Showroom sáng thứ Bảy!",
+        "timestamp": "2026-09-23T08:19:42+07:00"
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV-B-202",
+    "business_id": "SHOWROOM_B",
+    "customer_id": "CUST-004",
+    "customer_name": "Vũ Thu Trang",
+    "state": "HANDOFF_PENDING",
+    "lead_intent_score": 75,
+    "ai_summary": "Khách hàng Vũ Thu Trang hỏi về chính sách ưu đãi xe Toyota Corolla Cross 1.8 HEV Hybrid và xin chiết khấu riêng khi mua theo hộ kinh doanh cá thể. Đây là yêu cầu thương lượng giá vượt thẩm quyền tự động của AI nên hệ thống đã kích hoạt chuyển giao ca cho chuyên viên bán hàng trực tiếp.",
+    "suggested_actions": [
+      "Tiếp nhận ca ngay (SLA < 5 phút)",
+      "Chào khách hàng và xác nhận đã nắm thông tin về dòng Corolla Cross Hybrid màu xanh",
+      "Đề xuất gói giảm thêm 5 triệu nếu chốt cọc trong ngày + tặng bảo hiểm vật chất"
+    ],
+    "messages": [
+      {
+        "id": "MSG-101",
+        "sender_type": "CUSTOMER",
+        "sender_name": "Vũ Thu Trang",
+        "content": "Bên mình Corolla Cross bản Hybrid có sẵn xe màu xanh giao về Đà Nẵng không bạn? Giá niêm yết 905 triệu nếu mình mua cho hộ kinh doanh thì bớt thêm được bao nhiêu?",
+        "timestamp": "2026-09-23T21:10:00+07:00"
+      },
+      {
+        "id": "MSG-102",
+        "sender_type": "AI_AGENT",
+        "sender_name": "AutoAdvisor AI (Showroom B)",
+        "content": "Dạ em chào chị Trang ạ! Dòng **Toyota Corolla Cross 1.8 HEV Hybrid 2026** màu Xanh Ánh Kim hiện đang là một trong những phiên bản được khách hàng ưa chuộng nhất nhờ khả năng tiết kiệm xăng vượt trội (chỉ khoảng 3.67L/100km trong đô thị).\n\nHiện tại trong tháng 9, xe đang được áp dụng chương trình chính hãng:\n- **Hỗ trợ 50% lệ phí trước bạ** (tương đương khoảng 45 - 50 triệu đồng).\n- **Tặng 01 năm bảo hiểm vật chất** chính hãng Toyota Gold.\n- **Gia hạn bảo hành pin Hybrid** lên đến 7 năm hoặc 150.000km.\n\nVề chính sách chiết khấu thương mại bổ sung dành riêng cho hộ kinh doanh/khách hàng đặc biệt, em xin phép chuyển tiếp cuộc trò chuyện tới Chuyên viên Tư vấn Trưởng để hỗ trợ phê duyệt mức giá tốt nhất cho chị ngay ạ.",
+        "citations": [
+          {
+            "doc_title": "Chinh_Sach_Ban_Hang_Toyota_Cross_2026.pdf",
+            "section": "Mục 3.2 - Ưu đãi dòng xe Hybrid thân thiện môi trường",
+            "chunk_id": "CHK-CROSS-HEV-01"
+          }
+        ],
+        "timestamp": "2026-09-23T21:10:15+07:00"
+      },
+      {
+        "id": "MSG-103",
+        "sender_type": "CUSTOMER",
+        "sender_name": "Vũ Thu Trang",
+        "content": "Ừ kết nối cho mình gặp bạn tư vấn viên nhé, mình muốn chốt luôn trong tuần này nếu giá tốt.",
+        "timestamp": "2026-09-23T21:11:00+07:00"
+      },
+      {
+        "id": "MSG-104",
+        "sender_type": "SYSTEM",
+        "sender_name": "Hệ Thống Phân Bổ Ca",
+        "content": "Hệ thống đang kết nối chị Trang với Chuyên viên Tư vấn Showroom B. Thời gian phản hồi dự kiến: dưới 3 phút. Toàn bộ lịch sử trò chuyện đã được chuyển giao nguyên vẹn.",
+        "timestamp": "2026-09-23T21:11:02+07:00"
+      }
+    ]
+  }
+]
